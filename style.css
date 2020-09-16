@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+/* get in touch section starts here */
+
+.getInTouch {
+    background: url('images/contact-us-Banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    text-align: center;
+    position: relative;
+}
+
+.getInTouch__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.getInTouch__container h1 {
+    margin-bottom: 15px;
+}
+
+.getInTouch__container img {
+    margin-top: 60px;
+}
+
+.getInTouch__container h2 {
+    margin-bottom: 10px;
+}
+
+.getInTouch__container p {
+    color: rgba(107, 107, 107, 0.808);
+}
+
+/* get in touch section ends here */
+
+
+/* wrapper contact details section starts here */
+
+.contactDetails {
+    padding: 100px 0;
+}
+
+.contactDetails__container {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-gap: 100px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container__mail {
+    text-align: center;
+}
+
+.container__mail h2 {
+    margin-bottom: 10px;
+}
+
+.container__phone .phone__number {
+    display: flex;
+    margin: 22px 0;
+}
+
+.container__phone .phone__number img {
+    margin-right: 10px;
+}
+
+.container__stayInTouch .stayInTouch__profile {
+    display: flex;
+    margin: 15px;
+}
+
+.container__stayInTouch .stayInTouch__profile img {
+    margin-right: 10px;
+}
+
+.container__stayInTouch h2 {
+    margin-bottom: 10px;
+}
+
+.contactDetails hr {
+    width: 70%;
+    margin: 50px auto;
+    color: rgba(221, 221, 221, 0.198);
+    background: transparent;
+}
+
+/* wrapper contact details section ends here */
+
+/* wrapper location details starts here */
+
+.containerDetails__location .location__container{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dhaka, .newYork {
+    text-align: center;
+}
+
+.dhaka h2, .newYork h2 {
+    margin-bottom: 10px;
+}
+
+.location__container .partners img{
+    display: block;
+    margin: 20px    ;
+}
+
+/* wrapper location details ends here */
+
+/* map section starts here */
+
+.locationOnMap__map {
+    position: relative;
+    height: 100%;
+}
+
+.locationOnMap__text {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.text__details {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text__details h4 {
+    margin: 5px 0;
+}
+
+/* map section ends here */
+
+/* footer top starts from here */
+
+.footerTop {
+    background: #29364a;
+    padding: 50px;
+    margin-top: -3px;
+}
+
+.footerTop__container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+    grid-gap: 40px;
+}
+
+.footerTop__container .ourSoftware, .footerTop__container .moreAboutUs, .footerTop__container .connectWithUs,  .footerTop__container .office {
+    color: rgba(255, 255, 255, 0.815);
+}
+
+.footerTop__container .ourSoftware > * , .footerTop__container .moreAboutUs > *, .footerTop__container .connectWithUs > *, .footerTop__container .office > *  {
+    margin: 20px 0;
+}
+
+.footerTop__container .ourSoftware p {
+    line-height: 25px;
+    font-size: .9rem;
+}
+
+.footerTop__container hr {
+    color: rgba(221, 221, 221, 0.116);
+    width: 20%;
+}
+
+.footerTop__container .moreAboutUs ul li {
+    margin: 10px 0;
+    list-style: none;
+}
+
+.footerTop__container .moreAboutUs ul li a {
+    color: white;
+    text-decoration: none;
+    transition: all .5s;
+    font-size: .9rem;
+}
+
+.footerTop__container .moreAboutUs ul li a:hover {
+    color: rgb(255, 104, 104);
+}
+
+
+
+.footerTop__container .connectWithUs .phone__number {
+    display: flex;
+}
+
+.footerTop__container .connectWithUs .phone__number img{
+    margin-right: 10px;
+}
+
+
+.footerTop__container .connectWithUs a {
+    display: block;
+    text-decoration: none;
+    color: rgba(221, 221, 221, 0.397);
+}
+
+.footerTop__container .office p {
+    line-height: 25px;
+    color: rgba(221, 221, 221, 0.397);
+    font-size: .9rem;
+}
+
+/* footer top ends from here */
+
+/* footer bottom starts here */
+
+footer {
+    background: #3c4c65;
+    padding: 15px 0;
+}
+
+.footer__container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer__container > p {
+    color: rgba(221, 221, 221, 0.575);
+}
+
+.footer__container span {
+    color: white;
+}
+
+.footer__container div {
+    display: flex;
+    align-items: center;
+}
+
+.footer__container div > p {
+    color: white;
+}
+
+.footer__container div > * {
+    margin: 0 10px;
+}
+
+.footer__container div .social {
+    border: 2px solid #ddd;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 3px;
+}
+
+/* footer bottom ends here */
+
+
+/* respnsiveness starts from here */
+
+/* for screen size 937 */
+@media only screen and (max-width: 937px){
+    .containerDetails__location .location__container {
+        grid-template-columns: 1fr !important;
+        grid-gap: 50px;
+    }
+
+    .partners img {
+        display: unset !important;
+    }
+}
+
+/* for screen size 845 */
+@media only screen and (max-width: 845px){
+    .footer__container{
+        flex-direction: column !important;
+    }
+
+    .footer__container div {
+        margin-top: 20px;
+    }
+}
